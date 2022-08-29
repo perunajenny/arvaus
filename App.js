@@ -34,7 +34,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>{teksti}</Text>
-      <Text>{kohde}</Text>
       <TextInput keyboardType='numeric' style={styles.input} onChangeText={arvaus => setArvaus(arvaus)} value={arvaus}/>
         <View style={styles.button}>
       <Button onPress={makeGuess} title="Make guess" />
